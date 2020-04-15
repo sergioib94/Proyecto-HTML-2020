@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: "images/DQ1.jpg";
+		background-image: "images/SK1.jpg";
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
@@ -295,6 +295,7 @@ input, select, textarea {
 		border: 0;
 		border-bottom: solid 1px rgba(210, 215, 217, 0.75);
 		margin: 2em 0;
+		clear: both;
 	}
 
 		hr.major {
@@ -2113,6 +2114,30 @@ input, select, textarea {
 			-ms-transform: scale(1.075);
 			transform: scale(1.075);
 		}
+	.image_left {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		float: left;
+		clear: both;
+		padding-bottom: 1%;
+	}
+	.image_right {
+		display: block;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 30%;
+		float: right;
+		clear: both;
+		padding-bottom: 1%;
+	}
+	.image_center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+	}
 
 /* List */
 
